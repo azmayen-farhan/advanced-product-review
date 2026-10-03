@@ -1,0 +1,65 @@
+.apr-admin-wrap {
+	margin-top: 10px;
+}
+
+.apr-stat-cards {
+	display: flex;
+	gap: 16px;
+	margin: 20px 0 24px;
+	flex-wrap: wrap;
+}
+
+.apr-stat-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-left: 4px solid #2271b1;
+	border-radius: 4px;
+	padding: 16px 22px;
+	min-width: 160px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.apr-stat-card--pending {
+	border-left-color: #dba617;
+}
+
+.apr-stat-card--approved {
+	border-left-color: #1a7a3c;
+}
+
+.apr-stat-number {
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.2;
+	color: #1d2327;
+}
+
+.apr-stat-label {
+	font-size: 12px;
+	color: #646970;
+	margin-top: 2px;
+}
+
+.apr-status-tabs {
+	margin-bottom: 4px;
+}
+
+.apr-status-tabs .button {
+	margin-bottom: 4px;
+}
+
+.wp-list-table .column-images {
+	width: 140px;
+}
+
+.wp-list-table .column-rating {
+	width: 110px;
+}
+
+.wp-list-table .column-created_at {
+	width: 140px;
+}
+
+.wp-list-table .column-status {
+	width: 100px;
+}
